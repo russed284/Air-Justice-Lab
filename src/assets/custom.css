@@ -1,0 +1,146 @@
+﻿body {
+    background-color: #e6f2ff !important;
+    background-image: 
+        url("/assets/clouds.png"),
+        linear-gradient(#e6f2ff, #e6f2ff);   /* This preserves your blue as base */
+    background-size:     cover, cover;
+    background-position: center, center;
+    background-repeat:   no-repeat, no-repeat;
+    background-attachment: fixed, scroll;    /* Clouds fixed, color scrolls if desired */
+}
+/* === Navbar Styling === */
+.navbar {
+    background-color: #001f3f !important; /* deep navy */
+    border-bottom: 1px solid #003366;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+.full-width-navbar {
+    --bs-gutter-x: 0 !important;
+}
+
+
+.navbar-brand {
+    font-family: "Times New Roman", Times, serif !important;
+    font-weight: normal !important;
+    color: #ffffff !important;
+    font-size: 1.6rem;
+}
+
+
+.nav-link {
+    color: #ffffff !important;
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 1.1rem;
+}
+
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+    color: #e6f2ff !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+.dropdown-menu {
+    background-color: #002b55 !important;
+    border-color: #003366 !important;
+}
+
+
+.dropdown-item {
+    color: #ffffff !important;
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #003366 !important;
+    color: #e6f2ff !important;
+}
+
+
+/* === DataTable === */
+.dash-table-container .dash-spreadsheet-container,
+.dash-table-container .dash-spreadsheet-inner,
+.dash-table-container .dash-cell-value,
+.dash-table-container .dash-header {
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 12px !important;
+}
+
+
+.dash-spreadsheet {
+    background-color: #ffffff !important;
+}
+
+
+.dash-header {
+    background-color: #f0f5ff !important;
+    font-weight: 600;
+    color: #333;
+    text-align: center !important;
+}
+
+
+.dash-cell,
+.dash-cell-value {
+    background-color: #ffffff !important;
+    text-align: center !important;
+}
+
+
+.dash-spreadsheet tr:hover,
+.dash-spreadsheet .dash-cell.focused,
+.dash-spreadsheet .dash-cell.selected {
+    background-color: #f8fbff !important;
+}
+
+
+/* === Dropdown === */
+.Select-control,
+.dash-dropdown .Select-control {
+    background-color: #ffffff !important;
+    border-color: #e0d8b0 !important;
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 12px !important;
+}
+
+
+/* === Checklist === */
+.dash-checklist {
+    background-color: #ffffff !important;
+    border: 1px solid #e0d8b0 !important;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+
+.Checklist--option {
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 12px !important;
+}
+
+
+/* General spacing */
+.dash-table-container,
+.dash-dropdown,
+.dash-checklist {
+    margin: 8px 0;
+}
